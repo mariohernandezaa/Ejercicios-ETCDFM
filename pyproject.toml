@@ -1,0 +1,23 @@
+[project]
+name = "etcdfm"
+version = "2026.1"
+requires-python = "==3.12.*"
+dependencies = [
+    "dask[dataframe]",
+    "duckdb",
+    "h5py",
+    "ipykernel",
+    "ipywidgets",
+    "lxml",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "openpyxl",
+    "pandas<3",
+    "pillow",
+    "pip",
+    "pyarrow",
+    "requests",
+    "scikit-learn",
+    "sqlalchemy",
+]
